@@ -10,7 +10,7 @@ $id = $_POST['id'];
 
 // DBへのデータ保存
 $task = new Task();
-$task->update([$title, $contents, $id]);
+$task->update([$title,$contents,$id]);
 
 // リダイレクト
 header('location:index.php');
